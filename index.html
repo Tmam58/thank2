@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شكرًا لتسجيل الدخول</title>
+    <style>
+        @media (max-width: 600px){
+            .image{
+                flex-direction: column;
+                gap: 10px;
+                height: auto;
+            }
+
+            h2 {
+                font-size: 1.3em; /* تقليل حجم العنوان */
+            }
+
+            p{
+                font-size: 1em;
+            }
+        }
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+        .thank-you-container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .reward-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .reward-link:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="thank-you-container">
+        <h2>شكرًا لتسجيل الدخول!</h2>
+        <p>لقد تم تسجيل دخولك بنجاح، كمكافأة لك، يمكنك الدخول الى قروب المدرسة الخاص بثانوية رضوى:</p>
+        <a href="https://chat.whatsapp.com/IK4IoczUjX8Fjm3w5LYiYg" class="reward-link" target="_blank">الدخول الى القروب</a>
+    </div>
+    <img class="image" src="logo.png" alt="لاتوجد صورة" style="width: 70px; height: 70px; position: relative; top: 160px; left: 250px;">
+
+</body>
+</html>
